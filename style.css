@@ -754,3 +754,53 @@ img {
     margin-top: 50px;
 
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 100px 20px 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width:768px) {
+    section {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 15px 35px;
+}
