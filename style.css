@@ -572,12 +572,14 @@ img {
 
     nav {
         flex-direction: column;
-        gap: 20px;
+        padding: 20px;
     }
 
     .nav-links {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 15px;
     }
 
     .hero h1 {
@@ -802,5 +804,10 @@ img {
 }
 
 .btn {
-    padding: 15px 35px;
+    padding: 14px 28px;
+}
+
+.image-container {
+    width: 260px;
+    height: 260px;
 }
